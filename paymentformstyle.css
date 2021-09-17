@@ -1,0 +1,117 @@
+*{
+    padding:0px;
+    box-sizing:border-box;
+}
+body {
+    padding: 0px;
+    background-color:black;
+
+}
+.dot{
+    position:relative;
+    top:10px;
+    left:250px;
+   width:90px;
+    height:90px;
+    border-radius:50%;
+    background-color:maroon;
+    display: inline-block;
+   animation-name:dot1;
+    animation-duration: 5s;
+
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+@keyframes dot1 {
+    from{ background-color: maroon;left:250px;top:505px;}
+    to{ background-color: white}
+
+}
+.dot2{
+top:10px;
+    position:relative;
+    left:249px;
+    width:90px;
+    right:150px;
+    height:90px;
+    border-radius:50%;
+    background-color:blue;
+    display: inline-block;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-name: dot2;
+}
+@keyframes dot2{
+    from{background-color: blue;left:900px;}
+    to{background-color: indianred}
+}
+.dot3{
+    top:500px;
+    position:relative;
+    left:690px;
+    width:90px;
+    right:20px;
+    height:90px;
+    border-radius:50%;
+    background-color:orangered;
+    display: inline-block;
+
+    animation-duration: 5s;
+    animation-name:dot3;
+}
+@keyframes dot3{
+    from{background-color:orangered}
+    to{background-color: crimson}
+}
+.dot4{
+    top:500px;
+    position:relative;
+    left:683.7px;
+    width:90px;
+    right:15px;
+    height:90px;
+    border-radius:50%;
+    background-color:hotpink;
+    display: inline-block;
+
+    animation-duration: 5s;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    animation-name:dot4;
+    animation-timing-function: linear;
+}
+@keyframes dot4{
+    0%   {background-color:red; left:683.7px;top:500px;}
+    25%  {background-color:yellow;left:683.7px;top:250px;}
+    50%  {background-color:blue; left:683.7px;top:-2.5px;}
+    75%  {background-color:green; left:683.7px;top:499px;}
+    100% {background-color:palevioletred; left:683.7px;top:-5px;}
+}
+
+.form{
+    border-radius:30px;
+    border-color:black;
+    position:fixed;
+    top:55px;
+    left:330px;
+    height:400px;
+background-color: cyan;
+    padding:50px;
+    box-sizing: content-box;
+    width:590px;
+display:block;
+   border-style: solid;
+    border-color:darkcyan;
+
+}
+.vide0{
+top:60px;
+    position: fixed;
+    left:650px;
+
+
+}
