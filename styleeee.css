@@ -1,0 +1,17 @@
+head{
+    color :red;
+}
+h6{
+    text-justify: newspaper;
+    color:white;
+}
+h1{
+color :black;
+}
+
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    color:orangered
+}
